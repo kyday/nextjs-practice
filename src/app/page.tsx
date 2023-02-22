@@ -1,5 +1,8 @@
 import React from "react";
+import { useQuery } from "@tanstack/react-query";
+import axios from "axios";
+import HomePage from "@/pages/Home/HomePage";
 
-export default function page() {
-  return <div>page</div>;
-}
+const Page = async () => <HomePage />;
+
+export default Page;
